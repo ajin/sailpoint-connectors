@@ -47,10 +47,10 @@ The Oracle Unified Directory integration connector uses the following settings:
 | Membership Attribute | uniquemember |
 
 ## Installation
-To install the connector, simply:
+To install the connector, simply run below to enable a new Application Type called "Oracle Unified Directory"
 
 ### Web
-Use the Import From File page to import the new directory connector into IdentityIQ. Open IdentityIQ from your Web browser and log in with the administrator account. Next, navigate to `Global Settings` -> `Import from File`. Select the file `oud-connector.xml` and click import. This will create a new Application Type. 
+Use the Import From File page to import the new directory connector into IdentityIQ. Open IdentityIQ from your Web browser and log in with the administrator account. Next, navigate to `Global Settings` -> `Import from File`. Select the file `oud-connector.xml` and click import. 
 
 ### CLI
 Launch the IdentityIQ console by running the iiq console command from the `identityiq_home\WEB-INF\bin` directory. Next, use the console command to import `oud-connector.xml` file to import the directory connector.
